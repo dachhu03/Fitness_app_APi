@@ -14,7 +14,7 @@
 curl 'http://127.0.0.1:8000/api/classes?timezone=US/Eastern'
 
 ### Book a class
-curl -X POST -H "Content-Type: application/json" -d '{"class_id":1,"client_name":"John","client_email":"john@example.com"}' http://127.0.0.1:8000/api/book
+curl -X POST -H "Content-Type: application/json" -d '{"class_id":1,"client_name":"Rohith","client_email":"rohith@example.com"}' http://127.0.0.1:8000/api/book
 
 ### Get bookings
-curl 'http://127.0.0.1:8000/api/bookings?email=john@example.com'
+curl 'http://127.0.0.1:8000/api/bookings?email=rohith@example.com'
